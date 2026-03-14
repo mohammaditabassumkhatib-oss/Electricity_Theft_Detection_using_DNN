@@ -38,10 +38,9 @@ Built with **Flask** — upload a smart meter dataset and the system will:
 
 ### Screenshots
 
-> _Add screenshots of your running app here_
->
-> Suggested: Home page · Chart page · Performance Analysis page
-
+![Home Page](static/img/screenshots/home.png)
+![Chart](static/img/screenshots/chart.png)
+![Performance](static/img/screenshots/performance.png)
 ---
 
 ## How to Run Locally
