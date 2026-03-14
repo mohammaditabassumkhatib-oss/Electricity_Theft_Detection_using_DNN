@@ -4,13 +4,13 @@ A machine learning web application that detects fraudulent electricity usage pat
 
 ---
 
-## 🔍 Problem Statement
+## Problem Statement
 
 Electricity theft is a major global issue causing billions of dollars in losses annually for utility companies. Traditional rule-based detection methods are slow and inaccurate. This project uses a **Deep Neural Network trained on smart meter energy consumption data** to automatically classify consumers as faithful or unfaithful — achieving **99% accuracy**.
 
 ---
 
-## 🧠 Model Architecture
+## Model Architecture
 
 | Component | Detail |
 |---|---|
@@ -27,7 +27,7 @@ Electricity theft is a major global issue causing billions of dollars in losses 
 
 ---
 
-## 🖥️ Web Application
+## Web Application
 
 Built with **Flask** — upload a smart meter dataset and the system will:
 
@@ -44,7 +44,7 @@ Built with **Flask** — upload a smart meter dataset and the system will:
 
 ---
 
-## 🚀 How to Run Locally
+## How to Run Locally
 
 ### Prerequisites
 - Python 3.8+
@@ -77,7 +77,7 @@ Then open your browser and go to: **http://127.0.0.1:5000**
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 electricity-theft-detection/
@@ -97,7 +97,7 @@ electricity-theft-detection/
 ├── static/
 │   ├── css/                  # Custom stylesheets
 │   ├── js/                   # Custom JavaScript
-│   └── lib/                  # Third-party libraries
+│   └── img/                  # Images used in web
 │
 ├── data/
 │   └── test_data.csv         # Sample labelled dataset
@@ -114,7 +114,7 @@ electricity-theft-detection/
 
 ---
 
-## 📊 Performance Results
+## Performance Results
 
 | Metric | Class 0 (Faithful) | Class 1 (Unfaithful) |
 |---|---|---|
@@ -126,13 +126,13 @@ electricity-theft-detection/
 
 ---
 
-## 📄 Research Paper
+## Research Paper
 
 A research paper accompanies this project covering the full methodology, dataset analysis, model design, and results. See [`paper/`](./paper/) for the PDF.
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Backend:** Python, Flask
 - **ML/DL:** TensorFlow, Keras, scikit-learn
@@ -142,7 +142,7 @@ A research paper accompanies this project covering the full methodology, dataset
 
 ---
 
-## 📌 Notes
+## Notes:
 
 - If your dataset does not contain a `label` column, the app will run predictions using the trained model and display the distribution. The confusion matrix requires a labelled dataset.
 - The trained model (`theft.h5`) and scaler (`StandardScaler.pk`) are included in the repo and loaded automatically on startup.
