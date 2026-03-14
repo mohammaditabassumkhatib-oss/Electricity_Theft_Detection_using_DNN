@@ -38,8 +38,11 @@ Built with **Flask** — upload a smart meter dataset and the system will:
 
 ### Screenshots
 
-![Home Page](static/img/screenshots/home.png)
+#### Home Page
+![home_page](static/img/screenshots/home.png)
+#### Chart
 ![Chart](static/img/screenshots/chart.png)
+#### Performance Analysis
 ![Performance](static/img/screenshots/performance.png)
 ---
 
