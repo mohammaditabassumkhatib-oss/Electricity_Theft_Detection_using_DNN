@@ -1,0 +1,22 @@
+# model files
+*.pkl
+
+# uploaded/temp data
+upload.csv
+
+# python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# environment
+.env
+venv/
+env/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Jupyter checkpoints
+.ipynb_checkpoints/

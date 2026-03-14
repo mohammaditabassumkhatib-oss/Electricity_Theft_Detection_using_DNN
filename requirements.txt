@@ -1,0 +1,7 @@
+flask>=2.0
+pandas>=1.5
+numpy>=1.23
+scikit-learn>=1.1
+matplotlib>=3.5
+tensorflow>=2.12
+protobuf>=3.20
