@@ -40,6 +40,10 @@ Built with **Flask** — upload a smart meter dataset and the system will:
 
 #### Home Page
 ![Home Page](static/img/screenshots/home_page.png)
+#### Prediction Input
+![Prediction Input](static/img/screenshots/prediction_input.png)
+####
+![Prediction Output](static/img/screenshots/prediction_output.png)
 #### Chart
 ![Chart](static/img/screenshots/chart.png)
 #### Performance Analysis
@@ -56,7 +60,7 @@ Built with **Flask** — upload a smart meter dataset and the system will:
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/your-username/electricity-theft-detection.git
+git clone https://github.com/mohammaditabassumkhatib-oss/Electricity_Theft_Detection_using_DNN.git
 cd electricity-theft-detection
 
 # 2. Create and activate a virtual environment
