@@ -42,7 +42,7 @@ Built with **Flask** — upload a smart meter dataset and the system will:
 ![Home Page](static/img/screenshots/home_page.png)
 #### Prediction Input
 ![Prediction Input](static/img/screenshots/prediction_input.png)
-####
+#### Prediction Result
 ![Prediction Output](static/img/screenshots/prediction_output.png)
 #### Chart
 ![Chart](static/img/screenshots/chart.png)
