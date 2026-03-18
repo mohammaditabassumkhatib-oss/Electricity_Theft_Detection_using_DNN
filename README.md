@@ -1,6 +1,6 @@
-# Electricity Theft Detection in Smart Grids using Deep Neural Network
+# Electricity Theft Detection in Smart Grids Based on Deep Neural Networks
 
-A machine learning web application that detects fraudulent electricity usage patterns in smart grids using a Deep Neural Network (DNN). Built as a Final Year Bachelor's Project.
+A machine learning web application that detects fraudulent electricity usage patterns in smart grids using a Deep Neural Networks (DNN). Built as a Final Year Bachelor's Project.
 
 ---
 
