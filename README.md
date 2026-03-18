@@ -16,6 +16,7 @@ Electricity theft is a major global issue causing billions of dollars in losses 
 |---|---|
 | Algorithm | Artificial Neural Network (ANN / DNN) |
 | Clustering | Agglomerative Clustering (k=3) to label theft |
+| Dataser | 50,000+ smart meter consumption records |
 | Scaler | StandardScaler (saved as `StandardScaler.pk`) |
 | Training Accuracy | 99% |
 | Validation Accuracy | 99% |
