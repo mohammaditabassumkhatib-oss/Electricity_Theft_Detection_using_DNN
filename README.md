@@ -40,25 +40,25 @@ Built with **Flask** — upload a smart meter dataset and the system will:
 > **Demo credentials:** Username: `admin` · Password: `admin`
 > _(This is a demo application — authentication is hardcoded for demonstration purposes only)_
 
-### Screenshots
+## Screenshots
 
-#### Home Page
+### Home Page
 ![Home Page](static/img/screenshots/home_page.png)
 The landing page introduces the project, displays key model metrics (99% accuracy), and explains the three-step workflow: upload data → run prediction → view results.
 
-#### Prediction — Input
+### Prediction — Input
 ![Prediction Input](static/img/screenshots/prediction_input.png)
 The prediction form takes seven energy consumption features as input — median, mean, max, count, standard deviation, sum, and minimum — and runs them through the trained DNN in real time.
 
-#### Prediction — Result
+### Prediction — Result
 ![Prediction Output](static/img/screenshots/prediction_output.png)
 The model outputs either **Faithful** (no theft detected) or **Unfaithful** (theft detected) based on the input energy pattern.
 
-#### Dataset Distribution Chart
+### Dataset Distribution Chart
 ![Chart](static/img/screenshots/chart.png)
 After uploading a dataset, this pie chart shows the proportion of faithful vs unfaithful consumers detected by the model. Values update dynamically based on the uploaded data.
 
-#### Performance Analysis
+### Performance Analysis
 ![Performance](static/img/screenshots/performance.png)
 Displays the classification report (Precision, Recall, F1 Score) and a confusion matrix generated live by running the uploaded dataset through the trained model — not a static image.
 
